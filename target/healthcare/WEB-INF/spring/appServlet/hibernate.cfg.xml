@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+	<session-factory>
+		<property name="dialect">org.hibernate.dialect.MySQLDialect</property>
+		<property name="show_sql">true</property>
+		<mapping resource="com/cgs/pro94tek/healthcare/modal/UserModal" />
+		<mapping resource="com/cgs/pro94tek/healthcare/modal/CategoryModal" />
+		<mapping resource="com/cgs/pro94tek/healthcare/modal/SubCategoryModal" />
+		<mapping resource="com/cgs/pro94tek/healthcare/modal/SchoolModal" />
+		<mapping resource="com/cgs/pro94tek/healthcare/modal/TaxModal" />
+		<mapping resource="com/cgs/pro94tek/healthcare/modal/ChargeModal" />
+		<mapping resource="com/cgs/pro94tek/healthcare/modal/ServiceModal" />
+		<mapping resource="com/cgs/pro94tek/healthcare/modal/CompanyModal" />
+		<mapping resource="com/cgs/pro94tek/healthcare/modal/CustomerModal" />
+		<mapping resource="com/cgs/pro94tek/healthcare/modal/AgentModal" />
+		<mapping resource="com/cgs/pro94tek/healthcare/modal/DriverModal" />
+		<mapping resource="com/cgs/pro94tek/healthcare/modal/VehicleModal" />
+		<mapping resource="com/cgs/pro94tek/healthcare/modal/VehicleTypeModal" />
+		<mapping resource="com/cgs/pro94tek/healthcare/modal/VehicleTravelModal" />
+		<mapping resource="com/cgs/pro94tek/healthcare/modal/NewUserModal" />
+		<mapping resource="com/cgs/pro94tek/healthcare/modal/DepartmentModal"/>
+		<mapping resource="com/cgs/pro94tek/healthcarr/modal/LocationModal"/>
+		<mapping resource="com.cgs/pro94tek/healthcare/modal/StateModal"/>
+
+
+	</session-factory>
+</hibernate-configuration>
